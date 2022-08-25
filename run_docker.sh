@@ -4,7 +4,7 @@
 
 # Step 1:
 # Build image and add a descriptive tag
-docker build -t machine-flask .
+docker build -t ml-flask .
 # clean dangling docker images 
 echo y | docker image prune
 
@@ -15,4 +15,4 @@ docker images
 # Step 3: 
 # Run flask app
 # docker run -d --rm --name app -p 80:5000 machine-flask 
-docker run --rm --name app -p 80:80 machine-flask 
+docker run --rm --name app -p 80:80 ml-flask

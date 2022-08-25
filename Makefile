@@ -31,6 +31,11 @@ lint:
 docker:
 	# build, list and run docker image
 	./run_docker.sh
+	
+push:
+	# puh docker image to docker hub
+	./upload_docker.sh
+	
 predict:
 	./make_prediction.sh
 

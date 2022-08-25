@@ -67,5 +67,5 @@ def predict():
     # TO DO:  Log the output prediction value
     return jsonify({'prediction': prediction})
 
-# if __name__ == "__main__":
-app.run(host='0.0.0.0', port=8080, debug=True) # specify port=80
+if __name__ == "__main__":
+    app.run(host='0.0.0.0', port=80, debug=True) # specify port=80

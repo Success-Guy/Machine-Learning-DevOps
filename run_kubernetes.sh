@@ -4,15 +4,17 @@
 
 # Step 1:
 # This is your Docker ID/path
-# dockerpath=<>
+dockerpath=abiodunsam/ml-flask:latest
 
 # Step 2
 # Run the Docker Hub container with kubernetes
-
+kubectl create deployment ml-flask --image=$dockerpath
 
 # Step 3:
 # List kubernetes pods
+kubectl get nodes
 
 # Step 4:
 # Forward the container port to a host
+kubectl port-forward deployment/ml-flask 80:80
 
