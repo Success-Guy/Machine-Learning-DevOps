@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![Success-Guy](https://circleci.com/github/Success-Guy/Machine-Learning-DevOps.svg?style=svg)](https://app.circleci.com/pipelines/github/Success-Guy/Machine-Learning-DevOps)
 
 ## Project Overview
 
