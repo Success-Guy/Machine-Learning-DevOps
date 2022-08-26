@@ -12,7 +12,7 @@ kubectl create deployment ml-flask --image=$dockerpath
 
 # Step 3:
 # List kubernetes pods
-kubectl get nodes
+kubectl get pods
 
 # Step 4:
 # Forward the container port to a host
